@@ -1,1 +1,9 @@
-<p>address-list works!</p>
+<h1>Address List</h1>
+<div class="list-wrap">
+    <div *ngFor="let address of addresses" class="address-wrap">
+        <address [name]="address.name"
+                 [surname]="address.surname"
+                 [phone]="address.phone"
+                 (deleteEvent)="deleteRecord($event)"></address>
+    </div>
+</div>

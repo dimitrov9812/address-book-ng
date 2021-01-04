@@ -7,9 +7,6 @@
 <input type="text"
        placeholder="enter number"
        #phone>
-<button (click)="submitAddress(name.value,surname.value,phone.value)">
+<button (click)="addNewAddress(name.value,surname.value,phone.value)">
     SUBMIT
 </button>
-
-
-<address-list [addresses]="addresses"></address-list>

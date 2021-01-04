@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { AddressFormComponent } from './address-form/address-form.component';
 import { AddressListComponent } from './address-list/address-list.component';
 import { AddressComponent } from './address/address.component';
+import { AddressFormExampleComponent } from './address-form-example/address-form-example.component';
+import { AddressRootComponent } from './address-root/address-root.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddressFormComponent,
     AddressListComponent,
-    AddressComponent
+    AddressComponent,
+    AddressFormExampleComponent,
+    AddressRootComponent
   ],
   imports: [
     BrowserModule,

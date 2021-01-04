@@ -1,0 +1,15 @@
+.address-wrap{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.list-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
